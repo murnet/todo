@@ -9,6 +9,7 @@ __pycache__/
 
 migrations/
 
+.vscode
 .idea
 .DS_Store
 .AppleDouble

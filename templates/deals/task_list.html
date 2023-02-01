@@ -1,6 +1,7 @@
 <html>
   <body>
     <h1>Список задач</h1>
+    {% csrf_token %}
     <ul>
       {% for task in object_list %}
         <li>
